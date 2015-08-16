@@ -18,4 +18,6 @@ writeLines( toString( 1:10 %/% 3 ))
 # weird looking operator, but there ya go.  Integer
 # division in R.
 
+# and last, but not least, is the good old "remainder after division" operator
+writeLines( toString( 1:10 %% 3 ))
 
