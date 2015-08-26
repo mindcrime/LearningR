@@ -22,4 +22,16 @@ assign( "my_local_variable", 9^3 + 10^3 )
 
 writeLines( paste( "my_local_variable: ", my_local_variable ))
 
+# you can also assign a global variable this way
+assign( "my_global_variable", 9^4 + 10^2, globalenv() )
+
+writeLines( paste( "my_global_variable: ", my_global_variable ))
+
+# if we want to see the value of an assignment, we can wrap the
+# statement in parenthesis.
+
+(zz <- rlnorm(5))
+
+# or use print or writeLines
+print( zz )
 
