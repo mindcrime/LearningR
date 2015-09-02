@@ -49,4 +49,13 @@ writeLines( toString( object.size( gender_fac )))
 # raw for raw bytes (in hex)
 writeLines( toString( as.raw( 1:17 ) ) )
 
+aVar = "She sells seashells on the shore"
 
+if( is.character( aVar ))
+{
+	writeLines( "YES, Character data!!!")
+	
+} else
+{
+	writeLines( "DENIED!!!")
+}
