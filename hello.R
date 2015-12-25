@@ -1,3 +1,5 @@
+#!/usr/bin/Rscript
+
 # TODO: Add comment
 # 
 # Author: prhodes
